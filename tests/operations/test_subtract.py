@@ -1,12 +1,12 @@
 from calculator import subtract
 
 def test_subtract():
-    assert subtract(4, 2) == 2
+    assert subtract(5, 3) == 2
 
 
-def test_subtract_negative():
-    assert subtract(3, 7) == -4
+def test_subtract_negative_result():
+    assert subtract(3, 5) == -2
 
 
 def test_subtract_zero():
-    assert subtract(5, 0) == 5
+    assert subtract(7, 0) == 7
